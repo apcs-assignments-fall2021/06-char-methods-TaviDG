@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "toLower",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testToLower",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "toUpper",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testToUpper",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "removeNumbers",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testRemoveNumbers",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
